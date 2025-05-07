@@ -14,3 +14,115 @@
    .text-hover:hover{
     color: antiquewhite !important;
    }
+
+
+  
+  .pricing-section {
+   font-family: 'Arial', sans-serif;
+   background: url(https://static.vecteezy.com/system/resources/previews/001/900/919/large_2x/dark-wood-texture-antique-background-panels-free-photo.jpg);
+   background-color: #1a1a1a; /* Fondo oscuro */
+   color: #e0e0e0; /* Texto claro */
+   margin: 0;
+   padding: 40px 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+/* Contenedor principal */
+.pricing-section .pricing-banner {
+   display: flex;
+   gap: 25px;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 1200px;
+}
+
+/* Tarjetas de precios */
+.pricing-section .pricing-card {
+   background: #2a1e17; /* Marrón oscuro */
+   border-radius: 12px;
+   padding: 30px;
+   width: 280px;
+   text-align: center;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+   text-decoration: none;
+   color: #e0e0e0;
+   transition: transform 0.3s, box-shadow 0.3s;
+   border: 1px solid #3e2a1f; /* Borde marrón */
+}
+
+.pricing-section .pricing-card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Colores personalizados por plan */
+.pricing-section #basico {
+   background: #2a1e17; /* Marrón oscuro */
+   border-top: 4px solid #8b4513; /* Marrón cobrizo */
+}
+
+.pricing-section #pro {
+   background: #3a1e1e; /* Rojo vino oscuro */
+   border-top: 4px solid #a52a2a; /* Rojo oscuro */
+}
+
+.pricing-section #premium {
+   background: #1e1a1a; /* Negro con tono marrón */
+   border-top: 4px solid #800020; /* Borgoña */
+}
+
+/* Texto y precios */
+.pricing-section .pricing-card h3 {
+   font-size: 26px;
+   margin-bottom: 15px;
+   color: #f0f0f0;
+}
+
+.pricing-section .price {
+   font-size: 32px;
+   font-weight: bold;
+   margin: 20px 0;
+   color: #d4a373; /* Oro oscuro */
+}
+
+/* Lista de características */
+.pricing-section .pricing-card ul {
+   list-style: none;
+   padding: 0;
+   margin: 25px 0;
+   text-align: left;
+}
+
+.pricing-section .pricing-card li {
+   margin: 12px 0;
+   padding-left: 25px;
+   position: relative;
+}
+
+.pricing-section .pricing-card li:before {
+   content: "→";
+   color: #d4a373; /* Icono dorado */
+   position: absolute;
+   left: 0;
+}
+
+/* Botón */
+.pricing-section .pricing-card button {
+   background: #5c2018; /* Rojo oscuro */
+   color: white;
+   border: none;
+   padding: 12px 25px;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+   transition: background 0.3s;
+   width: 100%;
+}
+
+.pricing-section .pricing-card button:hover {
+   background: #8b2d2d; /* Rojo más claro al hover */
+}
