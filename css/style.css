@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-dark .navbar-brand,
+  .navbar-dark .nav-link {
+    color: rgb(184, 147, 147);
+  }
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: rgb(184, 147, 147) ;}
+
+   .text-hover:hover{
+    color: antiquewhite !important;
+   }
