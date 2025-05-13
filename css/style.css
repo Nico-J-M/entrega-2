@@ -140,24 +140,10 @@ div, .container-fluid .py-5 .mt-5 .mb-5{
    color: #f0e9e3;
 }
 
-button, .btn .btn-primary .w-100 .py-2{background-image: linear-gradient(to right, #603813 0%, #b29f94  51%, #603813  100%)}
 button, .btn .btn-primary .w-100 .py-2{
-   margin: 10px;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
-            display: block;
+   background-color: rgb(83, 25, 14) !important;
 }
-button, .btn .btn-primary .w-100 .py-2{
-            background-position: right center; /* change the direction of the change here */
-            color: #ca7c7c;
-            text-decoration: none;
-          }
+
 
          
       
