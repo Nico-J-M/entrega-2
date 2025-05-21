@@ -1,0 +1,148 @@
+// Importa todos los parciales
+@import 'variables';
+@import 'reset';
+@import 'navbar';
+@import 'pricing';
+
+
+// Navbar
+.navbar-dark {
+  .navbar-brand,
+  .nav-link {
+    color: $color-primary;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: $color-primary;
+  }
+}
+
+.text-hover:hover {
+  color: $color-hover !important;
+}
+
+body {
+  padding-top: 56px;
+  background: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
+
+  &.contacto {
+    background: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
+  }
+}
+
+// Pricing Section
+.pricing-section {
+  font-family: "Arial", sans-serif;
+  background: url("https://static.vecteezy.com/system/resources/previews/001/900/919/large_2x/dark-wood-texture-antique-background-panels-free-photo.jpg"),
+    $color-bg-dark;
+  color: $color-text-light;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  .pricing-banner {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+
+  .pricing-card {
+    background: $color-card-dark;
+    border-radius: 12px;
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: $color-text-light;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid $color-border;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    // Planes específicos
+    &#basico {
+      border-top: 4px solid #8b4513;
+    }
+
+    &#pro {
+      background: #3a1e1e;
+      border-top: 4px solid #a52a2a;
+    }
+
+    &#premium {
+      background: #1e1a1a;
+      border-top: 4px solid #800020;
+    }
+
+    h3 {
+      font-size: 26px;
+      margin-bottom: 15px;
+      color: #f0f0f0;
+    }
+
+    .price {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 20px 0;
+      color: $color-accent-gold;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 25px 0;
+      text-align: left;
+
+      li {
+        margin: 12px 0;
+        padding-left: 25px;
+        position: relative;
+
+        &::before {
+          content: "→";
+          color: $color-accent-gold;
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+
+    button {
+      background: $color-button;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background 0.3s;
+      width: 100%;
+
+      &:hover {
+        background: $color-button-hover;
+      }
+    }
+  }
+}
+
+// Selectores adicionales
+div,
+.container-fluid .py-5 .mt-5 .mb-5 {
+  color: #f0e9e3;
+}
+
+button,
+.btn .btn-primary .w-100 .py-2 {
+  background-color: rgb(83, 25, 14) !important;
+  border-color: #3a1e1e !important;
+}

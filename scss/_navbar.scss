@@ -1,0 +1,14 @@
+.navbar-dark {
+  .navbar-brand,
+  .nav-link {
+    color: $color-primary;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: $color-primary;
+  }
+}
+
+.text-hover:hover {
+  color: $color-hover !important;
+}
