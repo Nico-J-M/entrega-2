@@ -36,8 +36,18 @@
 
 body {
   padding-top: 56px;
-  background: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
 }
+
+body.sobrenosotros{
+  
+         background: #240600;
+background: linear-gradient(315deg, rgba(36, 6, 0, 1) 21%, rgba(84, 65, 54, 1) 40%, rgba(128, 92, 57, 1) 70%, rgba(161, 81, 39, 0.53) 99%);       
+}
+
+h1 span.webcolor{
+  color: #420e04;
+}
+
 body.contacto {
   background: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
 }
@@ -136,10 +146,44 @@ div,
   color: #f0e9e3;
 }
 
-button,
-.btn .btn-primary .w-100 .py-2 {
-  background-color: rgb(83, 25, 14) !important;
-  border-color: #3a1e1e !important;
+.btn-webplus {
+    background-color: #E28525; 
+    color: white !important;
+    border: none;
+    border-radius: 50px; /* Bordes completamente redondeados */
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(226, 133, 37, 0.4);
 }
+
+/* Efecto hover */
+.btn-webplus:hover {
+    background-color: #d87a1f;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(226, 133, 37, 0.6);
+}
+
+/* Efecto al hacer click */
+.btn-webplus:active {
+    transform: translateY(1px);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.btn-webplus:hover {
+    animation: pulse 1.5s infinite;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */

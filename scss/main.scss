@@ -3,7 +3,7 @@
 @import 'reset';
 @import 'navbar';
 @import 'pricing';
-
+@import 'sobrenosotros';
 
 // Navbar
 .navbar-dark {
@@ -28,6 +28,7 @@ body {
   &.contacto {
     background: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
   }
+  
 }
 
 // Pricing Section
