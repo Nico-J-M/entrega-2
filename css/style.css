@@ -61,6 +61,7 @@ body::before {
 
 section.ceo {
   background-color: rgb(53, 7, 7);
+  border-radius: 10px;
 }
 
 
