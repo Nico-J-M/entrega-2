@@ -206,6 +206,20 @@ div,
     animation: pulse 1.5s infinite;
 }
 
+/* Boton enviar consulta */
+button.btn {
+  background-color: #e03411 !important;
+  border-color: #2a1e17;
+}
+
+button.btn:hover {
+  background-color: #c92909 !important;
+  border-color: #1e1a1a;
+}
+
+/* Boton contactanos del index */
+
+
 
 
 /*# sourceMappingURL=style.css.map */
