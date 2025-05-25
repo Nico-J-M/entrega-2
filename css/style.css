@@ -59,7 +59,9 @@ body::before {
             z-index: -1; /* Coloca la capa detrás del contenido */
         }
 
-
+section.ceo {
+  background-color: rgb(53, 7, 7);
+}
 
 
   
