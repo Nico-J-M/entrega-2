@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+n
+
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
   color: rgb(184, 147, 147);
@@ -34,13 +36,14 @@
   color: antiquewhite !important;
 }
 
-body {
-  padding-top: 56px;
-}
+
 
 body.sobrenosotros {
+  padding-top: 56px;
   background-image: url(https://c1.wallpaperflare.com/path/518/369/227/web-design-coding-web-developing-macbook-2bd6fcbda3018f8915041b99ed9c7cd0.jpg);
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
@@ -48,7 +51,7 @@ body.sobrenosotros {
     color: aliceblue;
 }
 
-body::before {
+body.sobrenosotros::before {
             content: "";
             position: absolute;
             top: 0;
@@ -58,6 +61,17 @@ body::before {
             background-color: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.5 = 50%) */
             z-index: -1; /* Coloca la capa detrás del contenido */
         }
+
+body.contacto::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.5 = 50%) */
+            z-index: -1; /* Coloca la capa detrás del contenido */
+        }        
 
 section.ceo {
   background-color: rgb(53, 7, 7);
@@ -217,6 +231,8 @@ button.btn:hover {
   background-color: #c92909 !important;
   border-color: #1e1a1a;
 }
+
+
 
 /* Boton contactanos del index */
 
