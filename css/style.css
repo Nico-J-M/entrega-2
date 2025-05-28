@@ -5,7 +5,71 @@
   box-sizing: border-box;
 }
 
-n
+/* Estilos personalizados */
+        :root {
+            --primary-color: rgb(83, 25, 14);
+            --secondary-color: #f8f9fa;
+            --accent-color: #e9c46a;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+         .navbar {
+            background-color: var(--primary-color) !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+/* Sobre nosotros */
+
+        .feature-card, .philosophy-item {
+            padding: 1.5rem;
+            border-radius: 10px;
+            background: rgb(53, 7, 7);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            border: 1px solid rgba(0,0,0,0.08);
+            
+        }
+        
+        .feature-card:hover, .philosophy-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            border-color: rgba(0,0,0,0.12);
+        }
+        
+        .feature-icon, .philosophy-icon {
+            margin-bottom: 1rem;
+            color: #dc3545; /* Rojo de btn-webplus */
+        }
+        
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .btn.btn-webplus {
+            background-color: #3b0f04;
+            color: white;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            text-transform: none;
+        }
+        
+        .btn.btn-webplus:hover {
+            background-color: #220407;
+            color: rgb(0, 0, 0);
+        }
 
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
@@ -86,6 +150,7 @@ h1 span.webcolor{
 }
 
 body.contacto {
+  
   background: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
 }
 
