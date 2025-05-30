@@ -71,6 +71,7 @@
             color: rgb(0, 0, 0);
         }
 
+/* NAV Estilos */
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
   color: rgb(184, 147, 147);
@@ -83,6 +84,7 @@
   color: antiquewhite !important;
 }
 
+/* Pricing estilos */
 .pricing-section {
   font-family: "Arial", sans-serif;
   background: url("https://example.com/image.jpg"), #1a1a1a;
@@ -127,37 +129,37 @@ body.sobrenosotros::before {
         }
 
 body.contacto::before {
-
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.5 = 50%) */
-            z-index: -1; /* Coloca la capa detrás del contenido */
-        }        
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}    
 
 section.ceo {
   background-color: rgb(53, 7, 7);
   border-radius: 10px;
 }
-
-
-  
+ 
 
 h1 span.webcolor{
   color: #420e04;
 }
 
 body.contacto {
-  
-  background: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+    position: relative;
+    min-height: 100vh;
+    background-image: url("https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms/uploads/2016/07/3062206-poster-p-2-the-dangers-of-using-wi-fi-at-an-airbnb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
 }
 
+/* Pricing */
 .pricing-section {
   font-family: "Arial", sans-serif;
   background: url("https://static.vecteezy.com/system/resources/previews/001/900/919/large_2x/dark-wood-texture-antique-background-panels-free-photo.jpg"), #1a1a1a;
@@ -303,7 +305,7 @@ button.btn:hover {
 
 
 
-/* Boton contactanos del index */
+
 
 
 
