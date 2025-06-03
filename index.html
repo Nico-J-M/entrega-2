@@ -1,38 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>Desarrollo Web</title>
+    <title>Desarrollo Web | WebPlus</title>
 </head>
     
 <body>
 
-     <!-- Hero Section con texto introductorio -->
-     
-    <header class="container-fluid py-5" style="background-color: rgb(26, 13, 13); color: white;">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-12 text-center pt-5">
-                    <h1 class="display-4 fw-bold mb-4">Soluciones Web Profesionales</h1>
-                    <p class="lead mb-4">
-                        En WebPlus nos especializamos en el desarrollo de sitios web a medida, 
-                        aplicaciones web y soluciones digitales que impulsan tu negocio. 
-                    </p>
-                    <a href="pages/contacto.html" class="btn btn-lg" style="background-color: rgb(83, 25, 14); color: white;">Contáctanos</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand text-hover" href="index.html">WebPlus</a>
+            <a class="navbar-brand text-hover fw-bold" href="index.html">WebPlus</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,55 +38,172 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <main class="container-fluid" style="background-color: rgb(73, 20, 9);">
-        <div class="row">
-            <img src="images/photo-1678690832311-bb6e361989ca.jpeg" class="col-sm-12 col-md-6 col-lg-8 g-0" alt="build_your_dreams">
-            <img src="images/Leonardo_Kino_XL_web_design_with_brown_colors_0.jpg" class="col-sm-12 col-md-6 col-lg-4 g-0" alt="desktop_brown">
+    <!-- Hero Section -->
+    <section class="hero-section-index">
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold mb-4">Soluciones Web Profesionales</h1>
+                    <p class="lead mb-4 fs-5">
+                        En WebPlus nos especializamos en el desarrollo de sitios web a medida, 
+                        aplicaciones web y soluciones digitales que impulsan tu negocio hacia el éxito digital.
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="pages/contacto.html" class="btn btn-primary-custom">Contáctanos</a>
+                        <a href="pages/trabajos.html" class="btn btn-primary-custom">Ver Trabajos</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6 stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Clientes Satisfechos</div>
+                </div>
+                <div class="col-md-3 col-6 stat-item">
+                    <div class="stat-number">300+</div>
+                    <div class="stat-label">Proyectos Completados</div>
+                </div>
+                <div class="col-md-3 col-6 stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Satisfacción</div>
+                </div>
+                <div class="col-md-3 col-6 stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Grid Section -->
+    <section class="container my-5 py-5">
+        <div class="image-grid">
+            <div class="image-grid-item grid-main">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80" alt="Desarrollo web moderno">
+            </div>
+            <div class="image-grid-item grid-secondary">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Diseño web creativo">
+            </div>
+            <div class="image-grid-item grid-secondary">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Equipo de trabajo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section py-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title">Nuestros Servicios</h2>
+                    <p class="lead text-muted">Ofrecemos soluciones digitales completas para llevar tu negocio al siguiente nivel.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card card h-100">
+                        <div class="card-body philosophy-item p-4 text-center">
+                            <div class="service-icon">
+                                <i class="bi bi-globe"></i>
+                            </div>
+                            <h4 class="card-title mb-3">Desarrollo Web</h4>
+                            <p class="card-text">Sitios web personalizados, rápidos y optimizados para SEO que convierten visitantes en clientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card card philosophy-item h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="service-icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h4 class="card-title mb-3">Aplicaciones Móviles</h4>
+                            <p class="card-text ">Aplicaciones nativas e híbridas diseñadas para ofrecer la mejor experiencia de usuario.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card philosophy-item card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="service-icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <h4 class="card-title mb-3">Marketing Digital</h4>
+                            <p class="card-text ">Estrategias personalizadas para aumentar tu presencia online y generar más leads.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white pt-5 pb-4">
-    <div class="container">
-        <div class="row">
-            <!-- About us -->
-             <div class="col-md-4 mb-4">
-                <h2 class="text-uppercase mb-4">About Us</h2>
-                <p>Somos una empresa dedicada a brindar soluciones digitales innovadoras para nuestros clientes.</p>
-             </div>
+        <div class="container">
+            <div class="row">
+                <!-- About us -->
+                <div class="col-md-4 mb-4">
+                    <h2 class="text-uppercase mb-4">About Us</h2>
+                    <p>Somos una empresa dedicada a brindar soluciones digitales innovadoras para nuestros clientes.</p>
+                </div>
 
-             <!-- Contacto -->
-             <div class="col-md-4 mb-4">
-                <h2 class="text-uppercase mb-4">Contacto</h2>
-                <ul class="list-unstyled">
-                    <li class="mb-2"><i class="bi bi-geo-alt-fill"></i> Dirección: Callao 540, Buenos Aires </li>
-                    <li class="mb-2"><i class="bi bi-telephone-fill"></i> Teléfono: +123 456 7890</li>
-                    <li class="mb-2"><i class="bi bi-envelope-fill"></i> Email: contacto@webplus.com</li>
-                </ul>
+                <!-- Contacto -->
+                <div class="col-md-4 mb-4">
+                    <h2 class="text-uppercase mb-4">Contacto</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill"></i> Dirección: Callao 540, Buenos Aires </li>
+                        <li class="mb-2"><i class="bi bi-telephone-fill"></i> Teléfono: +123 456 7890</li>
+                        <li class="mb-2"><i class="bi bi-envelope-fill"></i> Email: contacto@webplus.com</li>
+                    </ul>
+                </div>
+                
+                <!-- Enlaces -->
+                <div class="col-md-4 mb-4">
+                    <h2 class="text-uppercase mb-4">Enlaces rapidos</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Servicios</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Profesionales</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Referencias</a></li>
+                    </ul>
+                </div>
             </div>
-            
-            <!-- Enlaces -->
-             <div class="col-md-4 mb-4">
-                <h2 class="text-uppercase mb-4">Enlaces rapidos</h2>
-                <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Inicio</a></li>
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Servicios</a></li>
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Profesionales</a></li>
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Referencias</a></li>
-                </ul>
-             </div>
+            <!-- Derechos de autor -->
+            <div class="row pt-3 border-top border-secondary">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">&copy; 2025 WebPlus. Todos los derechos reservados.</p>
+                </div>
+            </div>
         </div>
-        <!-- Derechos de autor -->
-        <div class="row pt-3 border-top border-secondary">
-            <div class="col-md-12 text-center">
-            <p class="mb-0">&copy; 2025 WebPlus. Todos los derechos reservados.</p>
-        </div>
+    </footer>
 
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
