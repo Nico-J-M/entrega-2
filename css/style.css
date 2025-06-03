@@ -420,12 +420,8 @@ button.btn:hover {
             font-weight: 600;
         }
         
-        
-        
-        .services-section {
-            
-            background-color: white
-            padding: 5rem 0;
+        .txt-p{
+          color: #3e120a;
         }
         
         .service-card {
