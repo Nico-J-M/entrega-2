@@ -454,7 +454,13 @@ button.btn:hover {
         }
         
         
-        
+        @media (min-width: 769px) {
+    html, body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+          }
+        }
        
         
         
