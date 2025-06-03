@@ -461,7 +461,35 @@ button.btn:hover {
         padding: 0;
           }
         }
-       
+
+
+        /* Efectos de carga para el hero */
+/* Efectos de carga para el hero */
+.animate-title {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.animate-subtitle {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 1s ease-out 0.3s, opacity 1s ease-out 0.3s;
+}
+
+.animate-buttons {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 1s ease-out 0.6s, opacity 1s ease-out 0.6s;
+}
+
+/* Clase que activa las animaciones */
+body.loaded .animate-title,
+body.loaded .animate-subtitle,
+body.loaded .animate-buttons {
+    transform: translateY(0);
+    opacity: 1;
+}
         
         
 
