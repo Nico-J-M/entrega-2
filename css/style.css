@@ -309,7 +309,7 @@ button.btn:hover {
             --primary: #53190E;
             --secondary: #491409;
             --dark: #1A0D0D;
-            --light: #f2f8fd9c;
+            --light: rgb(51, 1, 1);
         }
         
         
@@ -410,13 +410,13 @@ button.btn:hover {
         .stat-number {
             font-size: 3rem;
             font-weight: 700;
-            color: var(--primary);
+            color: white;
             margin-bottom: 0.5rem;
         }
         
         .stat-label {
             font-size: 1.1rem;
-            color: var(--dark);
+            color: white;
             font-weight: 600;
         }
         
