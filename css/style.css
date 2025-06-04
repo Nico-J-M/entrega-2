@@ -425,13 +425,15 @@ button.btn:hover {
         }
         
         .service-card {
-            color: #e0e0e0;
+            background-color: rgb(53, 7, 7);
+            color: white;
             border: none;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
             transition: all 0.3s ease;
             height: 100%;
+            
         }
         
         .service-card:hover {
